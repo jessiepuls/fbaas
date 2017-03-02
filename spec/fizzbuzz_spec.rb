@@ -8,4 +8,8 @@ describe Integer do
   it '6 should fizz' do
     expect(6.fizzbuzz).to eq 'fizz'
   end
+
+  it '5 should buzz' do
+    expect(5.fizzbuzz).to eq 'buzz'
+  end
 end
