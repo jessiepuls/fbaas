@@ -1,7 +1,7 @@
 class Numeric
   def fizzbuzz
     fizzbuzz = "#{fizz}#{buzz}"
-    return self if fizzbuzz.empty?
+    return self.to_s if fizzbuzz.empty?
     fizzbuzz
   end
 

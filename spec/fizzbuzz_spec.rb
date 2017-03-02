@@ -14,7 +14,7 @@ describe Integer do
   end
 
   it '1 should return 1' do
-    expect(1.fizzbuzz).to eq 1
+    expect(1.fizzbuzz).to eq '1'
   end
 
   it '15 should return fizzbuzz' do
