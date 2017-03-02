@@ -16,4 +16,8 @@ describe Integer do
   it '1 should return 1' do
     expect(1.fizzbuzz).to eq 1
   end
+
+  it '15 should return fizzbuzz' do
+    expect(15.fizzbuzz).to eq 'fizzbuzz'
+  end
 end
